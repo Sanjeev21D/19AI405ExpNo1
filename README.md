@@ -1,6 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
+<h3>Name: SANJEEV D</h3>
+<h3>Register Number: 212223040185</h3>
 
 
 <h3>AIM:</h3>
@@ -40,3 +40,69 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+
+<h3>PROGRAM</h3>
+
+<hr>
+
+```
+
+import random
+
+class HealthAgent:
+    def __init__(self, patient):
+        self.patient = patient
+
+    def monitor(self):
+        while True:
+            state = self.sensors.get_state()
+            action = self.decide(state)
+            self.actuators.execute(action)
+            if action == "No specific action needed":
+                break
+
+    def decide(self, state):
+        if state['heart_rate'] > 120:
+            return "Alert healthcare provider: High heart rate detected"
+        elif state['blood_pressure'] > 140:
+            return "Alert healthcare provider: High blood pressure detected"
+        elif state['temperature'] > 38:
+            return "Recommend rest and monitor temperature"
+        else:
+            return "No specific action needed"
+
+class Sensors:
+    def get_state(self):
+        return {
+            'heart_rate': random.randint(60, 150),
+            'blood_pressure': random.randint(90, 160),
+            'temperature': random.uniform(36.0, 38.5)
+        }
+
+class Actuators:
+    def execute(self, action):
+        print(action)
+
+if __name__ == "__main__":
+    patient = {'id': 123, 'name': 'John Doe', 'age': 35}
+
+    sensors = Sensors()
+    actuators = Actuators()
+
+    agent = HealthAgent(patient)
+    agent.sensors = sensors
+    agent.actuators = actuators
+
+    agent.monitor()
+
+```
+</hr>
+
+<h3>OUTPUT:</h3>
+
+<img width="373" height="64" alt="image" src="https://github.com/user-attachments/assets/d5f69774-71b6-48e1-91ad-d09181b8c87a" />
+
+
+<h3>RESULT</h3>
+
+<p>Hence, the solution for the given AI problem is found.</p>
