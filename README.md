@@ -108,7 +108,7 @@ Alert healthcare provider: High heart rate detected
 No specific action needed
 ```
 
-<img width="500" alt="Exp1 Output Screenshot Placeholder" src="https://github.com/user-attachments/assets/d5f69774-71b6-48e1-91ad-d09181b8c87a" />
+<img width="433" height="104" alt="image" src="https://github.com/user-attachments/assets/a11871cf-04e7-4e0e-858e-28419c4df383" />
 
 <h3>RESULT</h3>
 <p>Hence, the PEAS description was formulated and the Health Monitoring AI Agent was successfully developed and implemented.</p>
