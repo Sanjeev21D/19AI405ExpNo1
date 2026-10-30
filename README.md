@@ -102,8 +102,8 @@ if __name__ == "__main__":
 <h3>OUTPUT:</h3>
 
 ```text
-Recommend rest and monitor temperature
-Recommend rest and monitor temperature
+Alert healthcare provider: High heart rate detected
+Alert healthcare provider: High blood pressure detected
 Alert healthcare provider: High heart rate detected
 No specific action needed
 ```
