@@ -1,6 +1,6 @@
 <h1>ExpNo 1 : Developing AI Agent with PEAS Description</h1>
-<h3>Name: </h3>
-<h3>Register Number: </h3>
+<h3>Name: Sanjeev D</h3>
+<h3>Register Number: 212223040185 </h3>
 
 <h3>AIM:</h3>
 <br>
